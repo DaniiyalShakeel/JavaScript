@@ -1,0 +1,62 @@
+.container{
+    border: 2px solid black;
+    margin: 20px;
+}
+.container1{
+    border: 2px solid black;
+    margin: 20px;
+}
+.container2{
+    border: 2px solid black;
+    margin: 20px;
+}
+.container3{
+    border: 2px solid black;
+    margin: 20px;
+}
+.container4{
+    border: 2px solid black;
+    margin: 20px;
+}
+.box{
+    height: 20px;
+    width: 50px;
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid blue;
+}
+#cont{
+    height: 20px;
+    width: 50px;
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid black;
+}
+#cont1{
+    height: 20px;
+    width: 50px;
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid black;
+}
+#cont2{
+    height: 20px;
+    width: 50px;
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid black;
+}
+#cont3{
+    height: 20px;
+    width: 50px;
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid black;
+}
+#cont4{
+    height: 20px;
+    width: 50px;
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid black;
+}
