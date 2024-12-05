@@ -1,0 +1,26 @@
+.box{
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid black;
+    height: 20px;
+    width: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.container, .container1, .container2, .container3, .container4, .container5{
+    /* border: 2px solid black; */
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    margin: 5px;
+}
+
+#changeColorButton{
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    content: icon;
+}

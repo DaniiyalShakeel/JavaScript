@@ -1,0 +1,48 @@
+.container, .container1, .container2, .container3, .container4{
+    /* border: 2px solid black; */
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    margin: 5px;
+}
+
+#a,#b,#c,#d,#e,#f,#g,#h,#i,#j,#k,#l,#m,#n,#o,#p,#q,#r,#s,#t,#u,#v,#w,#x{
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid black;
+    height: 20px;
+    width: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    
+}
+button{
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid black;
+    height: 64px;
+    width: 70px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+
+.con{
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    margin: 5px;
+}
+.boxxx{
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid rgb(0, 0, 0);
+    height: 40px;
+    width: 20px;
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    
+}
