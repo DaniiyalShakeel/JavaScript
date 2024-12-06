@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .child {
+            background-color: rgb(117, 58, 58);
+            color: white;
+            margin: 14px;
+            padding: 14px;
+            border: 2px solid black;
+            cursor: pointer;
+        }
+
+        .childcontainer {
+            background-color: rgb(38, 157, 72);
+            color: white;
+            margin: 14px;
+            padding: 14px;
+            border: 2px solid black;
+            /* cursor: pointer; */
+
+
+        }
+
+        .container {
+            background-color: rgb(47, 55, 112);
+            color: white;
+            margin: 14px;
+            padding: 14px;
+            border: 2px solid black;
+            /* cursor: pointer; */
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="childcontainer">
+            <div class="child">
+                I am child
+            </div>
+        </div>
+    </div>
+    <script>
+        document.querySelector(".child").addEventListener
+            ("click", (e) => {
+                
+                alert("This is child yar kia kar rha hai")
+            })
+        document.querySelector(".childcontainer").addEventListener
+            ("click", (e) => {
+                
+                alert("This is childcontainer ")
+            })
+        document.querySelector(".container").addEventListener
+            ("click", (e) => {
+                
+                alert("This is container ye thk hai")
+            })
+
+        function getRandomColor() {
+            let col1 = (0 + Math.random() * 255);
+            let col2 = (0 + Math.random() * 255);
+            let col3 = (0 + Math.random() * 255);
+            return `rgb(${col1},${col2},${col3})`
+
+        }
+        setInterval(() => {
+            document.querySelector(".container").style.background = getRandomColor()
+        }, 1000);
+        setInterval(() => {
+            document.querySelector(".child").style.background = getRandomColor()
+        }, 1000);
+        setInterval(() => {
+            document.querySelector(".childcontainer").style.background = getRandomColor()
+        }, 1000);
+
+
+
+       
+    </script>
+
+
+</body>
+
+</html>
